@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vít Švanda</title>
+    <link rel="icon" type="image/x-icon" href="assets/logos/favicon.ico">
+    <meta name="description" content="Švanda Vít - Computer science student passionate about technology">
+    <link rel="canonical" href="https://svandik.dev/">
+    <meta name="theme-color" content="#090909">
+    <meta name="keywords" content="Vít Švanda, Švanda Vít, Švanda , Svandik, svadik dev, Švanda website , svandik website,  Svanda, portfolio, developer, computer science, web development, robotics, AI, cybersecurity, React, Python, ROS">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vít Švanda - Portfolio">
+    <meta property="og:description" content="Computer science student passionate about technology">
+    <meta property="og:image" content="https://svandik.dev/assets/photos/profile.webp">
+    <meta property="og:url" content="https://svandik.dev/">
+
+
+
+    <script>
+        (function() {
+            const saved = localStorage.getItem('theme');
+            if (saved) document.documentElement.setAttribute('data-theme', saved);
+        })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+</head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                    <i data-feather="menu"></i>
+                </button>
+                <ul class="nav-list">
+                    <li data-section="home">Home</li>
+                    <li data-section="skillset">Skills</li>
+                    <li data-section="experience">Experience</li>
+                    <li data-section="projects">Projects</li>   
+                    <li data-section="about">About</li>
+                    <li data-section="contact">Contact Me</li>
+                </ul>
+                <p class="highlight">|</p>
+                <div class="nav-actions ">
+                    <button class="nav-theme">
+                    <i data-feather="sun"></i>
+                    </button> 
+                </div>
+            </nav>
+        </header>
+
+
+    
+    <main>
+        <section id="home">
+            
+        <div class="home-content">
+        <img src="assets/photos/profile.webp" alt="Profile Picture" class="profile-pic">
+
+        <div class="home-text">
+        <article>
+            <h1>Hi! I'm Vítek<span class="highlight">!</span></h1>
+            <p>A 22yo computer science student with main specialization in:<br><span class="highlight">Web Dev</span> | <span class="highlight">Robotics</span> while in the future I plan on pursuing knowledge in <span class="highlight"><br>AI</span> and <span class="highlight">Data Science</span>.</p>            
+            <p>When I have some free time, I enjoy learning all about <span class="highlight">Networking</span> and <span class="highlight">Cybersecurity</span>!</p>        </article>
+        <div class="home-actions">
+        <a class="cta-button-CV" href="assets/CV_SVANDA_JUNE_ENG.pdf" target="_blank">Download CV</a>
+        <button class="cta-button" onclick="copyEmail()">Contact Me</button>
+        <a class="cta-button-icon" href="https://www.linkedin.com/in/svanda-vit/" target="_blank"> <i data-feather="linkedin"></i></a>
+        <a class="cta-button-icon" href="https://github.com/svandik42" target="_blank"> <i data-feather="github"></i></a>
+        </div>
+        </div>
+        </section>
+
+
+        <section id="skillset" class="reveal">
+        <h2>Skillset </h2>
+        <div class="tabs-group">
+            <div class="switch-btns">
+                <button class="switch-btn active" data-tab="Stack">Tech Stack</button>
+                <button class="switch-btn" data-tab="Certifications">Certifications & Courses</button>
+            </div>
+            <div class="tab-panel skillset-stack" data-panel="Stack">
+                <div class="column-left">
+                <h3><i data-feather="code"></i> Programming / Coding</h3>
+                <h4>Primary</h4>
+                <ul class="tech-list">
+                    <li class="tech-item" >
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"  alt="Python"/>
+                            Python
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"  alt="JavaScript"/>
+                            JavaScript
+                        </div>
+                    </li>
+
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"  alt="HTML"/>
+                            HTML
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"  alt="CSS"/>
+                            CSS
+                        </div>
+                    </li>
+                    </ul>
+                    <h4 style="margin-top: 16px;">Familiar</h4>
+                    <ul class="tech-list">
+                    
+          
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"  alt="Java"/>
+                            Java
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"  alt="C#"/>
+                            C#
+                        </div>
+                    </li>
+                    </ul>
+                
+                    <h3 style="margin-top:20px;"><i data-feather="database"></i> Databases</h3>
+                    <h4>Concepts</h4>
+                    <ul class="concept-tags">
+                        <li class="concept-tag"
+                            data-tip="Designing relational schemas with entities, relationships and keys (E-R modeling).">Relational
+                            Database Design</li>
+                        <li class="concept-tag" data-tip="Structuring tables to reduce redundancy, up to Boyce-Codd Normal Form.">
+                            Normalization (BCNF)</li>
+                        <li class="concept-tag" data-tip="Complex queries: multi-table JOINs, subqueries, aggregation and grouping.">
+                            SQL</li>
+                        <li class="concept-tag" data-tip="The formal theory behind SQL — operations on sets that define query logic.">
+                            Relational Algebra</li>
+                        <li class="concept-tag"
+                            data-tip="Atomicity, Consistency, Isolation, Durability — guarantees for reliable transactions.">ACID &amp;
+                            Transactions</li>
+                        <li class="concept-tag" data-tip="Managing simultaneous access via locks, MVCC and timestamp ordering.">Concurrency
+                            Control</li>
+                        <li class="concept-tag" data-tip="Speeding up queries with indexes and analyzing execution plans.">Indexing &amp;
+                            Query Optimization</li>
+                        <li class="concept-tag" data-tip="Using database views to encapsulate complex queries and provide reusable virtual tables.">SQL Views</li>
+                        <li class="concept-tag" data-tip="Specialized databases optimized for storing and querying time-series data, such as InfluxDB.">Time Series Databases (InfluxDB)</li>
+                    </ul>
+
+                    <h4 style="margin-top:16px;">Technologies</h4>
+                    <ul class="tech-list">
+                        <li class="tech-item">
+                            <div class="tech-item-group">
+                                <img class="tech-icon"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+                                    alt="Microsoft SQL Server" />
+                                <span>Microsoft SQL</span>
+                            </div> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="column-right">
+                <h3><i data-feather="cpu"></i> Robotics</h3>
+                <h4>Learning</h4>
+                <ul class="tech-list">
+
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon tech-icon-adaptive" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ros/ros-original.svg"  alt="ROS"/>
+                            ROS
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="assets/logos/nav2_logo.png" alt="Nav2 Logo" />              
+                            Nav2
+                        </div>
+                    </li>
+                </ul>
+
+                <h3><i data-feather="globe"></i> Web Development</h3>
+                <h4>Familiar</h4>
+                <ul class="tech-list">    
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"  alt="React"/>
+                        React
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"  alt="Bootstrap"/>
+                        Bootstrap
+                        </div>
+                    </li>
+
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"  alt="Tailwind"/>
+                        Tailwind
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"  alt="Node.js"/>
+                        Node.js
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vite/vite-original.svg"  alt="Vite"/>
+                        Vite
+                        </div>
+                    </li>
+                </ul>   
+                <h3><i data-feather="cpu"></i> Embedded Systems</h3>
+                <ul class="tech-list">
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg"  alt="Arduino"/>
+                            Arduino
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg"  alt="Raspberry Pi"/>
+                            Raspberry Pi
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="assets/logos/icon-esp.png"  alt="ESP"/>
+                            ESP32
+                        </div>
+                    </li>
+                </ul>
+                
+               
+                </div>
+
+            
+                
+                <div class="column-footer-tech-stack">  
+                    
+                <div class="footer">
+                <h3><i data-feather="folder"></i> Other Tools & Technologies</h3>
+                <ul class="tech-list">
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"  alt="Git"/>
+                            Git
+                        </div>
+                    </li>
+
+
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"  alt="Docker"/>
+                            Docker
+                        </div>
+                    </li>
+
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="assets/logos/Microsoft_365_(2022).svg"  alt="Office 365"/>
+                            Office 365
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg"  alt="Canva"/>
+                            Canva
+                        </div>
+                    </li>
+                </ul>
+                </div>
+
+                 <h3><i data-feather="hard-drive"></i> Operating Systems</h3>
+                <ul class="tech-list">
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg"
+                                alt="Ubuntu" />
+                            Ubuntu
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg"
+                                alt="Ubuntu Server" />
+                            <span>Ubuntu Server</span>
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linuxmint/linuxmint-original.svg"
+                                alt="Linux Mint" />
+                            <span>Linux Mint</span>
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg"
+                                alt="Windows" />
+                            Windows
+                        </div>
+                    </li>
+                    <li class="tech-item">
+                        <div class="tech-item-group">
+                            <img class="tech-icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kalilinux/kalilinux-original.svg"
+                                alt="Kali" />
+                            Kali
+                        </div>
+                    </li>
+                </ul>
+
+                </div>
+            </div>
+            <div class="tab-panel skillset-certs" data-panel="Certifications">
+                <ul class="certification-list">
+                        <li>
+                            <a class="certification-box" href="assets/certs/CCNA1Svanda.pdf" target="_blank">
+                            <img src="https://cdn.simpleicons.org/cisco" width="36" height="36" alt="Cisco">
+                                <div class="cert-text">
+                                    <h4 class="cert-name">CCNA: Introduction to Networks</h4>
+                                    <p class="cert-type">Certificate of Completion</p>
+                                    <p class="cert-meta">2025 · Cisco</p>
+                                </div>
+                                <i data-feather="external-link" class="cert-arrow"></i>
+
+                            </a>
+                        </li>
+                    <li>
+                        <a class="certification-box" href="assets/certs/CCNA2Svanda.pdf" target="_blank">
+                            <img src="https://cdn.simpleicons.org/cisco" width="36" height="36" alt="Cisco">
+                            <div class="cert-text">
+                                <h4 class="cert-name">CCNA: Switching, Routing and Wireless Essentials</h4>
+                                <p class="cert-type">Certificate of Completion</p>
+                                <p class="cert-meta">2026 · Cisco</p>
+                            </div>
+                            <i data-feather="external-link" class="cert-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="certification-box" href="assets/certs/CCNA3Svanda.pdf" target="_blank">
+                            <img src="https://cdn.simpleicons.org/cisco" width="36" height="36" alt="Cisco"> 
+                            <div class="cert-text">
+                                <h4 class="cert-name">CCNA: Enterprise Networking, Security and Automation</h4>
+                                <p class="cert-type">Certificate of Completion</p>
+                                <p class="cert-meta">2026 · Cisco</p>
+                            </div>
+                            <i data-feather="external-link" class="cert-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="certification-box" href="assets/certs/ITSupportSvanda.pdf" target="_blank">
+                            <img src="https://cdn.simpleicons.org/cisco" width="36" height="36" alt="Cisco">
+                            <div class="cert-text">
+                                <h4 class="cert-name">IT Customer Support Basics</h4>
+                                <p class="cert-type">Certificate of Completion</p>
+                                <p class="cert-meta">2026 · Cisco</p>
+                            </div>
+                            <i data-feather="external-link" class="cert-arrow"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="certification-box" href="assets/certs/IntroCybersecuritySvanda.pdf" target="_blank">
+                            <img src="https://cdn.simpleicons.org/cisco" width="36" height="36" alt="Cisco">
+                            <div class="cert-text">
+                                <h4 class="cert-name">Introduction to Cybersecurity</h4>
+                                <p class="cert-type">Certificate of Completion</p>
+                                <p class="cert-meta">2026 · Cisco</p>
+                            </div>
+                            <i data-feather="external-link" class="cert-arrow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="certification-box" href="assets/certs/HackatonRoboticSvanda.pdf" target="_blank">
+                            <i data-feather="terminal"  width="36" height="36"></i>
+                            <div class="cert-text">
+                                <h4 class="cert-name">Bavarian–Czech AI Summer School "AI and Robotics"</h4>
+                                <p class="cert-type">Certificate of Participation</p>
+                                <p class="cert-meta">2025</p>
+                            </div>
+                            <i data-feather="external-link" class="cert-arrow"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <h3 class="cert-working-title">Working On / Planned</h3>
+                <ul class="certification-list">
+                    <li>
+                        <div class="certification-box working-on">
+                            <img src="https://cdn.simpleicons.org/isc2" width="36" height="36" alt="ISC2">
+                            <div class="cert-text">
+                                <h4 class="cert-name">Certified in Cybersecurity</h4>
+                                <p class="cert-type">Expected Completion:</p>
+                                <p class="cert-meta">2027 · ISC2</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="certification-box working-on">
+                            <img src="https://cdn.simpleicons.org/tryhackme" width="36" height="36" alt="TryHackMe">
+                            <div class="cert-text">
+                                <h4 class="cert-name">Pre Security (SEC0)</h4>
+                                <p class="cert-type">Expected Completion:</p>
+                                <p class="cert-meta">TBD · TryHackMe</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="certification-box working-on">
+                            <img src="https://cdn.simpleicons.org/tryhackme" width="36" height="36" alt="TryHackMe">
+                            <div class="cert-text">
+                                <h4 class="cert-name">Cyber Security 101 (SEC1) </h4>
+                                <p class="cert-type">Expected Completion:</p>
+                                <p class="cert-meta">TBD · TryHackMe</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="certification-box working-on">
+                            <img src="https://cdn.simpleicons.org/comptia" width="36" height="36" alt="CompTIA">
+                            <div class="cert-text">
+                                <h4 class="cert-name">CompTIA Security+</h4>
+                                <p class="cert-type">Expected Completion:</p>
+                                <p class="cert-meta">TBD · CompTIA</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="certification-box working-on">
+                            <img src="assets/logos/aws-svgrepo-com.svg" width="36" height="36" alt="AWS">
+                            <div class="cert-text">
+                                <h4 class="cert-name">AWS Certified Cloud Practitioner</h4>
+                                <p class="cert-type">Expected Completion:</p>
+                                <p class="cert-meta">TBD · AWS</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </section>
+
+    <section id="experience" class="reveal">
+        <h2>Experience</h2>
+        <div class="tabs-group">
+            <div class="switch-btns">
+                <button class="switch-btn active" data-tab="Education">Education</button>
+                <button class="switch-btn" data-tab="Work">Work</button>
+            </div>
+
+            <!-- ===================== EDUCATION ===================== -->
+            <div class="tab-panel experience-education" data-panel="Education">
+                <ul class="timeline">
+
+                    <li class="timeline-item">
+                        <div class="timeline-card">
+                            <div class="card-header">
+                                <img class="card-logo" src="assets/logos/prf_logo2.svg" alt="University of South Bohemia">
+                                <div class="card-titles">
+                                    <h4 class="card-title">University of South Bohemia</h4>
+                                    <p class="card-subtitle">Faculty of Science - Computer Science</p>
+                                </div>
+                                <div class="card-meta">
+                                    <span class="card-degree">Bachelor's Degree</span>
+                                    <span class="card-date">2023 – Now</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="https://github.com/Svandik42/bc-visual-slam-jetbot" target="_blank"><button class="btn-experience">Final Year Project</button></a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <div class="timeline-card">
+                            <div class="card-header">
+                                <img class="card-logo" src="assets/logos/gymvlaLogo.webp" alt="Gymnázium Vlašim">
+                                <div class="card-titles">
+                                    <h4 class="card-title">Gymnázium Vlašim</h4>
+                                    <p class="card-subtitle">High School / Secondary School - General Studies</p>
+                                </div>
+                                <div class="card-meta">
+                                    <span class="card-degree">High School Diploma</span>
+                                    <span class="card-date">2015 – 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- ===================== WORK ===================== -->
+            <div class="tab-panel experience-work" data-panel="Work">
+                <ul class="timeline">
+
+                    <li class="timeline-item">
+                        <div class="timeline-card">
+                            <div class="card-header">
+                                <img class="card-logo" src="assets/logos/bosch.webp" alt="BOSCH">
+                                <div class="card-titles">
+                                    <h4 class="card-title">BOSCH</h4>
+                                    <p class="card-subtitle">AI and Digital content</p>
+                                </div>
+                                <div class="card-meta">
+                                    <span class="card-degree">Internship</span>
+                                <span class="card-date">February 2026 – Now</span>
+                                </div>
+
+                            </div>
+                            <div class="card-body">
+                                <p> &bull; Developed and worked on internal frontend web applications for department needs and selected projects</p>
+                                <p> &bull; Researched, tested and integrated large language models (LLMs) into daily department operations</p>
+                                <p> &bull; Worked with data via Python, Power BI and Excel, including macro development and data process optimization</p>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+
+        <section id="projects" class="reveal">
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+
+                <a class="project-card" href="https://github.com/Svandik42/bc-visual-slam-jetbot" target="_blank" rel="noopener">
+                    <div class="project-head">
+                        <h3 class="project-name">Bachelors Thesis:<br>Visual SLAM JetBot</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-desc">Autonomous visual SLAM and navigation system on NVIDIA Jetson Nano — mapping unknown environments and navigating, controlled through a web interface.</p>
+                        <ul class="project-tech">
+                            <li>ROS</li>
+                            <li>Python</li>
+                            <li>V-SLAM</li>
+                            <li>Nav2</li>
+                            <li>Web</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <a class="project-card construction"  target="_blank" rel="noopener">
+                    <div class="project-head">
+                        <h3 class="project-name">Personal Website</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-desc"></p>
+                        <ul class="project-tech">
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </a>
+
+                <a class="project-card construction"  target="_blank" rel="noopener">
+                    <div class="project-head">
+                        <h3 class="project-name">IPWarden</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-desc"></p>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+        <section class="about-content reveal" id="about">
+        
+            <div class="about-image">
+                <img src="assets/photos/about-photo-1.webp" alt="About Me Picture" class="about-me-picture">
+            </div>
+        
+            <div class="about-text">
+                <h2><i data-feather="user"></i> About Me</h2>
+<p>My name is <span class="highlight">Vít Švanda</span>, and I'm a <span class="highlight">computer science student</span> with a passion for almost everything related to technology. I focus on expanding my knowledge in the areas that interest me most, while gaining practical experience through <span class="highlight">projects</span> and <span class="highlight">internships</span>.</p>
+
+<p>While some people warn against bouncing between different topics, I embrace it. As the full saying goes: "A jack of all trades is a master of none, but oftentimes better than a master of one." For the way I learn and build things, this is a <span class="highlight">perfect fit!</span></p>
+
+<p>When I'm not at my computer, I really enjoy <span class="highlight">rock climbing</span> and going to <span class="highlight">concerts</span> or <span class="highlight">festivals</span>. I mainly listen to rock and metal — <span class="highlight">Bring Me The Horizon</span> and <span class="highlight">Linkin Park</span> are my absolute favorites. I also love playing video games, especially the complex kind where you need Wikipedia open on a second monitor just to figure out what's going on!</p>
+</div>
+        
+        </section>
+
+<section class="contact reveal" id="contact">
+    <h2>Get in touch!</h2>
+    <p class="contact-lead">Feel free to reach out if you have any questions or opportunities!</p>
+
+    <div class="contact-info">
+
+        <a class="contact-item" href="https://www.linkedin.com/in/svanda-vit/" target="_blank" rel="noopener">
+            <span class="contact-icon"><i data-feather="linkedin"></i></span>
+            <span class="contact-label">Švanda Vít</span>
+        </a>
+
+        <a class="contact-item" href="mailto:svanda.vitek@gmail.com" aria-label="Email">
+            <span class="contact-icon"><i data-feather="mail"></i></span>
+            <span class="contact-label">svanda.vitek@gmail.com</span>
+        </a>
+
+        <a class="contact-item" href="https://github.com/svandik42" target="_blank" rel="noopener">
+            <span class="contact-icon"><i data-feather="github"></i></span>
+            <span class="contact-label">svandik42</span>
+        </a>
+
+    </div>
+</section>
+    </main>
+    <footer class="footer-site" >
+        <p>&copy; 2026 Vít Švanda. All rights reserved.</p>
+    </footer>
+
+    <script>feather.replace();</script>
+    <script src="script.js"></script>
+    <div id="toast" class="toast">Email copied! ✓</div>
+
+    </body>
+    
+</html>
